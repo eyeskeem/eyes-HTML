@@ -1,0 +1,13 @@
+h1{
+    color: green;
+    text-align: center;
+}
+p{
+    color: darkblue;
+    font-size: 18px;
+}
+div{
+    background-color: gray;
+    width: 400px;
+    padding: 20px;
+}

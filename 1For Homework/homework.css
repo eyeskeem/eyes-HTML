@@ -1,0 +1,426 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #2c3e50;
+  min-height: auto;
+}
+
+
+.page-header {
+  position: relative;
+  z-index: 5;
+
+  min-height: 20px;
+  padding: 20px;
+
+  color: white;
+
+  background-image:
+    linear-gradient(45deg, #34495e 25%, transparent 25%),
+    linear-gradient(-45deg, #34495e 25%, transparent 25%),
+    linear-gradient(135deg, #34495e 25%, transparent 25%),
+    linear-gradient(-135deg, #34495e 25%, transparent 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 20px 20px;
+  box-shadow: 0 0 5px 0 #333333;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 20px;
+
+  margin: 0;
+}
+
+.main-menu ul {
+  margin: 0;
+  margin-left: 100px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.main-menu li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.main-menu a {
+  color: white;
+}
+
+
+main {
+  min-height: 200px;
+  padding-top: 50px;
+
+  color: black;
+
+  background-color: white;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABlBMVEX///+pqalTpKl9AAAAAnRSTlMAGovxNEIAAAAdSURBVDjLY2AAAUaG4UYxDDsfjfp91O+jfqfE7wCzpQCw/dq+qQAAAABJRU5ErkJggg==");
+}
+
+main::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.about-me {
+  min-height: 100px;
+  margin: 0 20px;
+  padding: 10px;
+
+  background-color: rgba(241, 196, 15, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 3px #cccccc;
+}
+
+.posts {
+  min-height: 50px;
+  margin: 20px 0;
+  padding: 20px;
+
+  background-color: #f5f5f5;
+  box-shadow: 0 0 5px #cccccc;
+}
+
+
+.page-footer {
+  min-height: 50px;
+  padding: 20px;
+
+  font-size: 14px;
+  color: black;
+
+  background-color: #f1c40f;
+  background-image:
+    linear-gradient(45deg, transparent 50%, white 50%),
+    linear-gradient(-45deg, transparent 50%, white 50%),
+    linear-gradient(135deg, transparent 50%, #2c3e50 50%),
+    linear-gradient(-135deg, transparent 50%, #2c3e50 50%);
+  background-repeat: repeat-x;
+  background-position: 0 0, 0 0, 0 100%, 0 100%;
+  background-size: 12px 12px;
+}
+
+.page-footer::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.page-footer .info {
+  float: left;
+}
+
+.page-footer .info img {
+  margin-right: 0.5em;
+
+  vertical-align: middle;
+
+  border: 2px solid white;
+  box-shadow: 0 0 4px #c0392b;
+  transform: rotate(-5deg);
+}
+
+.page-footer .copyright {
+  float: right;
+  padding-top: 20px;
+
+  font-size: 12px;
+} */
+
+
+/* input[type='number'] {
+  background-color: yellow;
+  color: red;
+  border-radius: 10px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+input[checked] {
+  outline: 3px solid red;
+}
+
+input[disabled]{
+  background-color: green;
+  border-radius: 10px;
+} */
+
+/* a:hover{
+  color: teal;
+  text-transform: uppercase;
+}
+
+input[type="text"]{
+  border-radius: 10px;
+  background-color: aquamarine;
+  color: red
+}
+
+input:focus{
+  background-color: black;
+  border-radius: 10px;
+}
+
+li:first-child{
+  color:yellowgreen;
+  text-decoration: underline;
+}
+
+li:last-child{
+  color:blueviolet;
+  text-decoration: underline;
+} */
+
+/* p::before{
+  content: "📋";
+}
+p::after{
+  content: "!📋";
+  color: silver;
+}
+
+input::placeholder{
+  color: goldenrod;
+  font-style: italic;
+}
+
+input{
+  color: red;
+} */
+
+/* body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: url(https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/shooter.jpg) no-repeat 0 0;
+  background-size: auto;
+  min-height: auto;
+}
+
+.target {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  height: 30px;
+  margin: 0;
+  padding: 5px 5px;
+  list-style: none;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2);
+  align-items: center;
+}
+
+li {
+  width: 13px;
+  height: 13px;
+  font-size: 0;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  margin-left: 0;
+}
+
+body, .target, li {
+  background-color: white;
+} */
+
+/* body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: url(https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/shooter.jpg) no-repeat 0 0;
+  background-size: auto;
+  min-height: auto;
+}
+
+.target {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  height: 30px;
+  margin: 0;
+  padding: 5px 5px;
+  list-style: none;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2);
+  align-items: center;
+}
+
+li {
+  width: 13px;
+  height: 13px;
+  font-size: 0;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  margin-left: 0;
+}
+
+.hit {
+  background-color: white;
+}
+.miss {
+  background-color: red;
+} */
+
+/* body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: url(https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/shooter.jpg) no-repeat 0 0;
+  background-size: auto;
+  min-height: auto;
+}
+
+.target {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  height: 30px;
+  margin: 0;
+  padding: 5px 5px;
+  list-style: none;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2);
+  align-items: center;
+}
+
+li {
+  width: 13px;
+  height: 13px;
+  font-size: 0;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  margin-left: 0;
+}
+
+li.first, li.fifth {
+  background-color: white; 
+}
+
+li.second {
+  background-color: yellow;
+} 
+
+li.third, li.fourth {
+  background-color: red;
+} */
+
+/* body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: url(https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/shooter.jpg) no-repeat 0 0;
+  background-size: auto;
+  min-height: auto;
+}
+
+.target {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  height: 30px;
+  margin: 0;
+  padding: 5px 5px;
+  list-style: none;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2);
+  align-items: center;
+}
+
+li {
+  width: 13px;
+  height: 13px;
+  font-size: 0;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  margin-left: 0;
+}
+
+li {
+  background-color: white;
+}
+.first + li, .fourth + li {
+  background-color: red;
+} */
+
+body {
+  font-size: 90%;
+  font-family: sans-serif;
+  min-height: auto;
+}
+
+form {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+label:first-child {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="password"] {
+  width: 95%;
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 80px;
+  margin-top: 20px;
+  padding: 8px;
+  color: #333333;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+#fullname {
+  background-color: #fcf8e3;
+}
+
+#year {
+  width: 100px;
+} 
