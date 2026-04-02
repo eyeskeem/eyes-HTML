@@ -1,20 +1,63 @@
-body {
-  max-width: 1600px;
-  max-height: 1200px;
-  margin: 0 auto;
+body{
+  width: 1600px;
+  height: 1200px;
   background-color: #EFF6FF;
 }
 
 main{
+  display: flex;
+  background-color: white;
   width: 1440px;
   height: 1000px;
-  margin-left: px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
-img {
-    width: 760px;
-    height: 1000px;
-    margin-top: 100px;
-    margin-left: 80px;
-    margin-bottom: 100px;
+.image{
+position: relative;
+display: inline-block;
+}
+
+.main-pic{
+  width: 760px;
+  height: 1000px;
+  display: block;
+}
+.facebook{
+  position: absolute;
+  width: 20px;
+  top: 200px;
+  color: red;
+  background-color: red;
+}
+.linkedin{
+  position: absolute;
+  width: 20px;
+  top: 200px;
+  color: red;
+  background-color: red;
+}
+.logo{
+  position: absolute;
+  width: 139px;
+  height: 27px;
+  top: 144px;
+  left: 131px;
+}
+
+.container{
+  position: relative;
+  display: inline-block;
+  width: 760px;
+  height: 1000px;
+}
+.container h1{
+  position: relative;
+  font-size: 30px;
+}
+.container p{
+position: relative;
+font-size: 14px;
 }
