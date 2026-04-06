@@ -100,7 +100,7 @@
 
 ```CSS
 
-@font-face {
+ @font-face {
     font-family: "Barlow";
     src: url('fonts/Barlow-Regular.otf') format('opentype');
     font-weight: normal;
