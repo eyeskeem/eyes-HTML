@@ -1,3 +1,8 @@
+## 🎨 web-core-4.7
+
+###HTML (Основная структура)
+
+'''HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,23 +19,24 @@
             <img class="logo" src="/web-core-4.7/image/logo (2).svg" alt="logo">
         </div>
 
- <div class="right-column">
+
+<div class="right-column">
             <h1>Get iinto it today</h1>
             <p>There is no charge or obligation upon registration.</p>
     
 
- <div class="registration">
+<div class="registration">
                 <button class="facebook-button">Register with Facebook</button>
                 <button class="linkedin-button">Register with Linkedin</button>
                 <p class="OR">OR</p>
                 <span class="box-left"></span>
                 <span class="box-right"></span>
-            </div>
+</div>
 
 <div class="input-pic">
                 <img class="facebook-img" src="/web-core-4.7/image/facebook (1).svg" alt="facebook">
                 <img class="linkedin-img" src="/web-core-4.7/image/linkedin (1).svg" alt="linkedin">
-            </div>
+</div>
 
 <form action="https://chat.deepseek.com/" method="get">
             <div class="enter-form">
@@ -40,12 +46,12 @@
                     <input class="phone-input" type="tel" name="phone" id="tel" required>
             </div>   
 
- <div class="Main-text">
+<div class="Main-text">
                 <h2>What type of investor are you?</h2>
                 <p>Select the type of investor you are below</p>
-            </div>
+</div>
 
- <div class="radio-button">
+<div class="radio-button">
                 <label>
                     <input type="radio" id="Individual" name="options"
                     value="Individual" required>Individual
@@ -66,20 +72,20 @@
                     value="Trust" required>Trust
                     <span class="info-icon">ⓘ</span>
                 </label>
-            </div>
+</div>
 
 <div>
-        <p class="radio-info">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant on common.</p>
+                <p class="radio-info">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant on common.</p>
 </div>
 
 <label class="checkbox">
-            <input type="checkbox" id="checkbox" name="terms-agreed"
-            value="trust" required> I agree to the terms and receiving notifications from iintoo 
-            <a href="https://medium.com/@TermsFeed/12-ways-to-show-your-terms-to-users-156ad6c8416e">View full terms</a>
-            </label>
+                    <input type="checkbox" id="checkbox" name="terms-agreed"
+                    value="trust" required> I agree to the terms and receiving notifications from iintoo 
+                    <a href="https://medium.com/@TermsFeed/12-ways-to-show-your-terms-to-users-156ad6c8416e">View full terms</a>
+</label>
             
 <div class="form">
-        <button class="Create-Account" type="submit">Create account</button>
+                <button class="Create-Account" type="submit">Create account</button>
     </div>
 </div>
 </div>   
@@ -88,6 +94,9 @@
 </main>
 </body>
 </html>
+'''
+
+'''CSS
 
 @font-face {
     font-family: "Barlow";
@@ -392,3 +401,4 @@ p {
     font-size: 15px;
     color: #ffffff;
 } 
+'''
