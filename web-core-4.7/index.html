@@ -24,6 +24,8 @@
                 <button class="facebook-button">Register with Facebook</button>
                 <button class="linkedin-button">Register with Linkedin</button>
                 <p class="OR">OR</p>
+                <span class="box-left"></span>
+                <span class="box-right"></span>
             </div>
 
             <div class="input-pic">
@@ -33,10 +35,10 @@
 
         <form action="https://chat.deepseek.com/" method="get">
             <div class="enter-form">
-                <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="gus.goodwin@gmail.com" required>
-                <label for="phone">Phone</label>
-                    <input type="tel" name="phone" id="tel" required>
+                <label class ="email" for="email">Email</label>
+                    <input class="email-input" type="email" id="email" name="email" placeholder="gus.goodwin@gmail.com" required>
+                <label class="phone" for="phone">Phone</label>
+                    <input class="phone-input" type="tel" name="phone" id="tel" required>
             </div>   
 
             <div class="Main-text">
@@ -48,19 +50,27 @@
                 <label>
                     <input type="radio" id="Individual" name="options"
                     value="Individual" required>Individual
+                    <span class="info-icon">ⓘ</span>
                 </label>
                 <label>
                     <input type="radio" id="Business" name="options"
                     value="Business" required> Business
+                    <span class="info-icon">ⓘ</span>
                 </label>
                 <label>
                     <input type="radio" id="IRA" name="options"
                     value="IRA" required> IRA
+                    <span class="info-icon">ⓘ</span>
                 </label>
                 <label>
                     <input type="radio" id="Trust" name="options"
                     value="Trust" required>Trust
+                    <span class="info-icon">ⓘ</span>
                 </label>
+            </div>
+
+            <div>
+                <p class="radio-info">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant on common.</p>
             </div>
 
                 <label class="checkbox">
@@ -70,7 +80,7 @@
                 </label>
             
             <div class="form">
-                <button type="submit">Create account</button>
+                <button class="Create-Account" type="submit">Create account</button>
             </div>
         </div>
     </div>   

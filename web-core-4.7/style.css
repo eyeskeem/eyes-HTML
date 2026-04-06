@@ -19,13 +19,16 @@ main {
 
 .two-columns {
     display: flex;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
 }
+
 
 .left-column {
     position: relative;
     overflow: hidden;
     margin-bottom: 80px;
-    margin-left: 75px;
 }
 
 .right-column {
@@ -52,36 +55,37 @@ main {
 }
 
 .facebook-img {
-  position: absolute;
-  width: 20px;
-  height: auto;
-  top: 325px;
-  left: 1030px;
+    position: absolute;
+    width: 20px;
+    height: auto;
+    top: 340px;
+    margin-left: 88px;
 }
 
 .linkedin-img {
-  position: absolute;
-  width: 20px;
-  height: auto;
-  top: 325px;
-  left: 1315px;
+    position: absolute;
+    width: 20px;
+    height: auto;
+    top: 340px;
+    margin-left: 372px;
 }
 
 h1 {
-    color: #7B8A92;
     margin-top: 100px;
     margin-left: 75px;
     font-size: 30px;
     font-family: "Barlow";
+    letter-spacing: -1.5;
     font-weight: normal;
+    color: #7B8A92;
 }
 
 p {
-    color: #96A5B1;
     margin-left: 75px;
-    font-size: 14px;
     font-family: "Barlow";
-    font-weight: normal;
+    font-size: 20px;
+    font-style: normal;
+    color: #96A5B1;
 }
 
 .facebook-button {
@@ -94,6 +98,9 @@ p {
     font-size: 14px;        
     cursor: pointer;
     transition: 0.3s;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
     color: #ffffff;
     background-color: #255b9b;
 }
@@ -104,10 +111,12 @@ p {
     margin-top: 40px;
     margin-left: 35px;
     border: none;
-    border-radius: 0px;
-    font-size: 14px;        
+    border-radius: 0px;     
     cursor: pointer;
     transition: 0.3s;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
     color: #ffffff;
     background-color: #0076b6;
 }
@@ -119,3 +128,176 @@ p {
     font-size: 14px;
     color: #AFAFAF;
 }
+
+.registration {
+    position: relative;
+}
+
+.box-left {
+    position: absolute;
+    width: 108px;
+    height: 1px;
+    top: 140px;
+    margin-left: 210px;
+    background-color: #AFAFAF;
+}
+.box-right {
+    position: absolute;
+    width: 108px;
+    height: 1px;
+    top: 140px;
+    margin-left: 360px;
+    background-color: #AFAFAF;
+}
+
+.enter-form {
+    position: relative;
+
+}
+
+.email-input {
+    position: relative;
+    width: 235px;
+    height: 30px;
+    top: 30px;
+    left: 75px;
+    padding-top: 25px;
+    padding-left: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-color: #EEEEEE ;
+    border-left: 2px solid #0076b6;
+    background-color: transparent;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+}
+
+.email-input::placeholder {
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    color: #000000;
+}
+
+.phone-input {
+   position: relative;
+    width: 245px;
+    height:30px;
+    top: 30px;
+    left: 110px;
+    padding-top: 25px;
+    padding-left: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #EEEEEE ;
+    background-color: transparent;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+}
+
+.email {
+    position: absolute;
+    top: 38px;
+    left: 82px;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    color: #AFAFAF;
+}
+
+.phone {
+    position: absolute;
+    top: 38px;
+    right: 270px;
+    font-family: "Barlow";
+    font-size: 15px;
+    font-style: normal;
+    color: #AFAFAF;
+}
+
+.Main-text h2 {
+    position: relative;
+    top: 75px;
+    left: 75px;
+    font-family: "Barlow";
+    font-size: 22px;
+    font-weight: normal;
+    color: #7B8A92;
+}
+
+.Main-text p {
+    position: relative;
+    top: 70px;
+    font-family: "Barlow";
+    font-size: 14px;
+    font-style: normal;
+    color: #96A5B1;
+}
+
+.radio-button {
+    position: relative;
+    top: 100px;
+    left: 75px;
+}
+
+.radio-button label {
+    cursor: pointer;
+    margin-right: 30px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-size: 15px;
+}
+
+.radio-button input[type="radio"] {
+    margin-right: 13px;
+}
+
+.radio-button span {
+    position: relative;
+    left: 3px;
+    font-size: 12px;
+    color: #96A5B1;
+}
+
+.radio-info {
+    position: relative;
+    width: 250px;
+    top: 120px;
+    left: 15px;
+    border-radius: 1px;
+    box-shadow: 0px 0px 5px 1px rgba(209, 209, 209, 0.2);
+    font-family: "Barlow";
+    font-size: 14px;
+    font-style: normal;
+    color: #96A5B1;
+}
+
+.checkbox {
+    position: relative;
+    top: 170px;
+    left: 75px;
+    font-family: "Barlow";
+    font-size: 13px;
+    font-style: normal;
+    color: #96A5B1;
+}
+
+.Create-Account {
+    position: relative;
+    width: 245px;
+    height: 42px;
+    top: 210px;
+    left: 75px;
+    border-radius: 5px;
+    border: 1px solid #3698FB;
+    background-color: #3698FB;
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+} 
