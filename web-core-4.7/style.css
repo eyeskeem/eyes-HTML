@@ -94,8 +94,7 @@ p {
     margin-top: 40px;
     margin-left: 75px;
     border: none;
-    border-radius: 0px;
-    font-size: 14px;        
+    border-radius: 0px;    
     cursor: pointer;
     transition: 0.3s;
     font-family: "Barlow";
